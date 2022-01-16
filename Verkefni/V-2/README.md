@@ -1,13 +1,6 @@
-# Töflur og form
+# CSS skipulag
 
-* [Verkefnalýsing 2](https://github.com/vefhonnun/22Vor/blob/main/Verkefni/V-2/22v_verkefni_2.pdf)
-* [Fylgigögn](https://github.com/vefhonnun/22Vor/tree/main/S%C3%BDnid%C3%A6mi/V-2)
+### Markmið:
+Nemendur öðlast skilning á hönnun CSS grunnsíðu (_Boilerplate_).
 
-### Verkefnaskil
-
-Öllum vinnugögnum á að skila í áfangageymsluna þína.
-
-Einkunn verður birt í Innu.
-
-_Gangi þér vel_
-
+Meðfylgjandi er CSS grunnur (boilerplate) sem þú getur hlaðið á þína tölvu og notað til að hanna frábærar vefsíður :smile:

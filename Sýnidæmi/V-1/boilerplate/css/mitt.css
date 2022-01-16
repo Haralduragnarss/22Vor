@@ -1,0 +1,28 @@
+.hide {
+    display: none;
+}
+.bakgrunnur {
+    background-image: url(../images/values-bg.jpg);
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+  }
+.hluti {
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+.foot_litur{
+    background-color: turquoise;
+}

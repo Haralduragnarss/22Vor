@@ -1,3 +1,5 @@
+<!--Verkefni 1 - VEFHÖNNUN 2 - Tækniskólinn Vorönn 2022 - Dagur Sigurðsson-->
+
 <!DOCTYPE html>
 <html lang="is">
 <head>
@@ -11,11 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/mitt.css">
-    <!-- stílsíður sem við eigum eftir að bæta við-->
-    <!--link rel="stylesheet" href="css/iconfont.css"-->
+    <link rel="stylesheet" href="css/styles.css">
     <!--link rel="stylesheet" href="css/topmenu.css"-->
-    <link rel="stylesheet" href="css/custom.css">
+    <!--link rel="stylesheet" href="css/custom.css"-->
     <!--Allar stílsíðurnar eru síðan þjappaðar í eina stílsíðu -->
     <!--link rel="stylesheet" href="css/styles.css"-->
 
@@ -24,46 +24,39 @@
 <body id="top">
   <nav class="topnav">
   </nav>
-  <header class="container col-2" id="top">
+  <header class="container" id="top">
     <section>
-      <div class="one-half column">
-        <img src="images/rwd-logo.svg" width="100">
-        <h1 class="hero-heading">Stop coding non-structured web sites. Let's do it right.</h1>
+        <h1>Stop coding non-structured web sites. Let's do it right.</h1>
         <a class="button button-primary" href="http://vefhonnun.github.io">Do it yourself</a>
-      </div>
-      <div>
-        <figure class="simi">
-          <img src="images/mobile.png" alt="mobile">
-        </figure>
       </div>
     </section>
   </header>
   <main>
-    <section class="bakgrunnur">
-      <div class="container col-3">
-        <div class="value">
+    <section>
+      <div class="col-3 container">
+        <div>
           <h1>67%</h1>
           <h3>Purchase Increase</h3>
           <p>Percentage of users more likely to purchase<br> on mobile friendly site.</p>
         </div>
-        <div class="value">
+        <div>
           <h1>90%</h1>
           <h3>Multi-device Users</h3>
           <p>Most of the world accesses the internet<br> on multiple devices.</p>
         </div>
-        <div class="value">
-          <h1 class="circl">66%</h1>
+        <div>
+          <h1>66%</h1>
           <h3>Sad Users</h3>
           <p>Percentage of users that are frustrated<br> with page load times.</p>
         </div>
     </div>
     </section>
-    <section class="container hide" >
+    <section class="container">
         <h2>Need help getting started?</h2>
         <p>Grid is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
         <a class="button button-primary" href="http://gridbyexample.com">View Grid by example</a>
     </section>
-    <section class="container hide" id="cssgrid">
+    <section class="container" id="cssgrid">
       <p>Hér á þessari síðu er CSS Grid með 6 dálkum, þetta er einfalt kerfi sem auðvelt er að breyta og bæta</p>
       <div class="col-1 rammi">
         <div>col-1</div>
@@ -107,7 +100,7 @@
         <div>col-6f fixed</div>
       </div>
     </section>
-    <section class="bgimage hide" id="myndir">
+    <section class="bgimage" id="myndir">
       <div class="container">
         <h2>Responsive Images</h2>
         <div class="col-2">
@@ -157,21 +150,23 @@
         </div>
       </div>
     </section>
-    <section class="container col-2" id="letur">
-      <div class="">
+    <section class="container" id="letur">
+      <div class=" ">
         <article>
           <h1>Fyrirsögn</h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
-          <h2>Undirfyrirsögn</h2>
+          <h3>Millifyrirsögn</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
         </article>
         <article>
+          <h2>Undirfyrirsögn</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
           <h3>Millifyrirsögn</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>  
         </article>
+      </div>
+      <div class=" ">
         <article>
-          <h3>Millifyrirsögn</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
           <h4>Áherslutexti</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
         </article>
@@ -179,14 +174,7 @@
           <h5>Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h5>
         <h6>Neðamálstexti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet minima porro numquam eligendi totam nulla voluptate odit facere aut quo iste veniam, impedit non quisquam cupiditate, earum architecto quas!</h6>
         </article>
-      </div>
-      <div class="">
-        <figure>
-          <img src="images/placeholder2.png" alt="placeholder2">
-        </figure>
         <article>
-          <h3>Millifyrirsögn</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
           <h4>Áherslutexti</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
         </article>
@@ -197,7 +185,10 @@
       </div>
     </section>
   </main>
-  <footer class="container centre col-3">
+  <footer class="container centre">
+    <hr>
+    <img src="images/rwd-logo.svg" width="100">
+    <p><a href=#top class="button">Efst á síðu</a></p>
   </footer>
 </body>
 </html>

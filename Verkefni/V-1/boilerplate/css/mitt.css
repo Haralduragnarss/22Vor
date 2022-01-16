@@ -1,0 +1,73 @@
+.body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Playfair Display', serif; 
+}
+.hide {
+    display: none;
+}
+.bakgrunnur {
+    background-image: url(../images/values-bg.jpg);
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+.bakrunnurFooter {
+    background-color: turquoise;
+    background-size: cover;
+}
+.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+  }
+.hluti {
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+.simi {
+    position: relative;
+    max-width: 80%;
+    margin: 4rem auto -12rem;
+    padding-left: 20em;
+    transform: rotate(8deg);
+    padding-bottom: 5em;
+}
+.hringir {
+    border-style: solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.letterSize {
+    text-align: left;
+    font-size: 10px;
+    padding-top: 2em;
+    padding-left: 10em;
+    padding-bottom: 1em;
+}
+
+.center {
+    text-align: center;
+}
+.footer {
+    line-height: 1;
+}
+.mynd {
+    padding-top: 6em;
+}
+.textiPlacement {
+    padding-left: 6em;
+
+}
+.haus {
+    padding-top: 2em;
+}
